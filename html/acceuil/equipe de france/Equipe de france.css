@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "fantasy",sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("images/fond.jpg") center center no-repeat ;
+    background-size: cover;
+    background-position: center;
+    z-index: -100;
+}
+
+.filter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: .7;
+}
+
+table {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    overflow: hidden;
+    background: white;
+    text-align: center;
+}
+
+th {
+    background: rgb(0, 153, 255);
+    color: #fff;
+    text-transform: uppercase;
+
+    border-right: 1px solid #d6d4d4;
+    vertical-align: middle;
+    
+}
+
+th,td {
+    padding: 25px 12px;
+}
+
+tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+
+.daudet {
+    position: absolute;
+    width: 15%;
+    margin-bottom: 490px;
+    margin-right: 800px;
+}
+
+.rencurel {
+    position: absolute;
+    width: 15%;
+    margin-bottom: 490px;
+    margin-right: 525px;
+}
+
+.andre {
+    position: absolute;
+    width: 12%;
+    margin-bottom: 490px;
+    right: 800px;
+}
+
+.mahieu {
+    position: absolute;
+    width: 18%;
+    margin-bottom: 490px;
+    margin-left: 500px;
+}
+
+.pilard {
+    position: absolute;
+    width: 10%;
+    margin-bottom: 480px;
+    margin-left: 770px;
+}
+
+.bmx_media {
+    width: 10%;
+    position: absolute;
+    height: auto;
+    top: 10%;
+    left: 5%;
+    z-index: auto;
+}
+
+.ffc {
+    width: 10%;       
+    top: 9%;
+    margin-left: 85%;
+    position: absolute;
+   
+}
